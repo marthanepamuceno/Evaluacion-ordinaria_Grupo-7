@@ -1,0 +1,65 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=BBH+Bartle&family=BBH+Bogle&family=Lexend+Deca:wght@100..900&family=Special+Gothic+Expanded+One&display=swap');
+
+
+header, main, footer{
+    background-color: #000000;
+    color: #F2A20C;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+   
+}
+header img{
+	 width: 120px;
+	 text-align:center;
+	
+}
+
+.texto-merch{
+    padding-left: 60px;
+	padding-right: 70px;
+}
+.card img{
+	height: 250px;
+	object-fit: contain;
+}
+
+.card{
+	transition: 0.3s;
+	background-color:#000000;
+}
+
+.card:hover{
+	transform: translateY(-10px);
+}
+
+section h2{
+	background-color:#000000;
+	 font-family: "BBH Bartle", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+;
+
+}
+
+section{
+	background-color:#000000;
+	font-family: "Special Gothic Expanded One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
+	
+}
+
+nav{
+	background-color:#fbe7c0;
+
+	 font-family: "Special Gothic Expanded One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+	
+}

@@ -1,0 +1,45 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url('https://fonts.googleapis.com/css2?family=BBH+Bartle&family=BBH+Bogle&family=Lexend+Deca:wght@100..900&family=Special+Gothic+Expanded+One&display=swap');
+
+
+header, main, footer{
+    background-color: #000000;
+    color: #F2A20C;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+   
+}
+
+section{ background-image:url("../imagenes/origen.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  height: 50vh;
+}
+
+
+
+header img{
+	 width: 120px;
+	 text-align:center;
+	
+}
+
+container{
+    background-color: #000000;}
+
+
+nav{
+	background-color:#fbe7c0;
+
+	 font-family: "Special Gothic Expanded One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+	
+}
+.row img {max-width: 100%; height: auto;}
